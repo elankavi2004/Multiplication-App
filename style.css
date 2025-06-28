@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430867.jpg?semt=ais_hybrid&w=740");
+  font-family: cursive;
+  text-align: center;
+  background-size: cover;
+}
+.form {
+  background-color: rgb(255, 250, 250);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 90%;
+  max-width: 400px;
+}
+.input {
+  width: 100%;
+  font-size: 24px;
+  padding: 10px;
+  margin-top: 10px;
+  border: 3px solid green;
+  border-radius: 5px;
+  color: green;
+  text-align: center;
+}
+.input::placeholder {
+  color: lightgray;
+  font-family: cursive;
+}
+.btn {
+  background-color: green;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  font-size: 20px;
+  font-family: cursive;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+.btn:hover {
+  background-color: darkgreen;
+}
+.score {
+  color: green;
+  text-align: right;
+  margin-bottom: 10px;
+}
+#message {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+#message.correct {
+  color: green;
+}
+#message.wrong {
+  color: red;
+}
